@@ -1,0 +1,72 @@
+* {
+  font-family: Ubuntu , sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fdf9f0;
+}
+
+.title {
+  margin-left: 40px;
+  margin-top: 10px;
+  max-width: 100px;
+  overflow: hidden;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.filters {
+  align-items: center;
+  background-color: #fdf9f0;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: flex-end;
+  max-width: 60px;
+}
+
+.filters-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.filter-image {
+  height: 50px;
+  margin-top: 10px;
+  width: 50px;
+}
+
+.filters button {
+  border: none;
+  display: flex;
+}
+
+.recipe-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.teste {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.recipe-card h3 {
+  margin-bottom: 5px;
+}
+
+.recipe-card img {
+  border-radius: 10px;
+  margin: 23px;
+  width: 35vw;
+}

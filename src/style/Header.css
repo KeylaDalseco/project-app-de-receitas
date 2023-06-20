@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap') ;
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  align-items: center;
+  background-color: #830000;
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: Ubuntu , sans-serif;
+  gap: 60vw;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+.header img {
+  height: 70%;
+  margin-top: 10%;
+  padding-right: 5px;
+  width: auto;
+}
+
+.search {
+  background-color: #830000;
+  height: 85%;
+  margin-right: 50px;
+  position: absolute;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap') ;
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.login {
+  align-items: center;
+  background: url('../images/BackgrounsCapa.png') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.login:before {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: ' ';
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 0;
+}
+
+.input_login {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  width: 300px;
+  z-index: 2;
+}
+
+.login input {
+  border-radius: 5px;
+  font-family: Ubuntu , sans-serif;
+  font-size: 14px;
+  height: 20%;
+  margin-top: 5px;
+  padding-left: 10px;
+  width: 300px;
+}
+
+.login button {
+  background-color: #830000;
+  border-radius: 5px;
+  box-shadow: 2px 3px 5px 3px black;
+  color: #ebdddd;
+  font-family: Ubuntu , sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  height: 40px;
+  letter-spacing: 2px;
+  margin: 15px;
+  width: 100px;
+}
+
+.login button:disabled {
+  opacity: 85%;
+}
+
+.login img {
+  border-radius: 50px;
+  position: relative;
+  width: 140px;
+  z-index: 2;
+}
